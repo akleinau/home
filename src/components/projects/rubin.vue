@@ -12,13 +12,13 @@ const dialog = ref(false)
             height="110"
             cover
         />
-        <v-card-title>Rubin Project</v-card-title>
+        <v-card-title>Rubin CDSS </v-card-title>
     </v-card>
 
     <v-dialog v-model="dialog" max-width="900">
         <v-card class="maxicard">
             <v-card-title class="d-flex align-center justify-space-between">
-                Rubin Project
+                Rubin Cdss 
                 <v-btn icon="mdi-close" variant="text" @click="dialog = false" />
             </v-card-title>
             <v-card-text>

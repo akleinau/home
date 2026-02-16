@@ -12,10 +12,11 @@ body {
 }
 
 .minicard {
-    width: 200px;
+    width: 220px;
     height: 150px;
     cursor: pointer;
-    margin: 8px;
+    margin: 4px;
+    margin-top: 8px;
 }
 
 .maxicard {
@@ -46,4 +47,12 @@ body {
     margin-top: 12px;
     font-size: 0.95rem;
     opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .minicard {
+    width: 350px;
+    height: 160px;
+    margin: 8px;
+  }
 }

@@ -7,35 +7,35 @@ const dialog = ref(false)
 <template>
     <v-card class="minicard" @click="dialog = true">
         <v-img
-            src="/raccoon.png"
-            alt="Raccoon Project"
+            src="/smoking.png"
+            alt="smoking Project"
             height="110"
             cover
         />
-        <v-card-title>Risk Communication </v-card-title>
+        <v-card-title>Smoking Cessation </v-card-title>
     </v-card>
 
     <v-dialog v-model="dialog" max-width="900">
         <v-card class="maxicard">
             <v-card-title class="d-flex align-center justify-space-between">
-                Raccoon Project
+                smoking Project
                 <v-btn icon="mdi-close" variant="text" @click="dialog = false" />
             </v-card-title>
             <v-card-text>
                 <v-img
-                    src="/raccoon.png"
-                    alt="Raccoon Project"
+                    src="/smoking.png"
+                    alt="smoking Project"
                     height="420"
                     contain
                 />
                 <v-sheet class="url-field" rounded>
                     <a
                         class="url-link"
-                        href="https://akleinau.github.io/raccoon/"
+                        href="https://pred.hbcptools.org"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        https://akleinau.github.io/raccoon/
+                        https://pred.hbcptools.org
                     </a>
                 </v-sheet>
                 <div class="description">Short description goes here.</div>
