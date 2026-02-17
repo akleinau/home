@@ -25,7 +25,6 @@ const dialog = ref(false)
                 <img
                     src="/FractalSquirrel.png"
                     alt="FractalSquirrel Project"
-                    height="420"
                     class="project-img-contain"
                 />
                 <v-sheet class="url-field" rounded>
@@ -38,7 +37,22 @@ const dialog = ref(false)
                         https://akleinau.github.io/FractalSquirrel/
                     </a>
                 </v-sheet>
-                <div class="description">Short description goes here.</div>
+
+                <div class="description">
+                    Ever wanted to run around in a fractal? Just click left or right on the screen. 
+                    This was a little weekend project. Cute, buggy, and fun.
+                </div>
+                
+                <v-btn
+                    class="mt-4"
+                    variant="outlined"
+                    prepend-icon="mdi-file-code"
+                    href="https://github.com/akleinau/FractalSquirrel"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Source code
+                </v-btn>
             </v-card-text>
         </v-card>
     </v-dialog>

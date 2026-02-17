@@ -25,7 +25,6 @@ const dialog = ref(false)
                 <img
                     src="/finch.png"
                     alt="finch Project"
-                    height="420"
                     class="project-img-contain"
                 />
                 <v-sheet class="url-field" rounded>
@@ -38,7 +37,21 @@ const dialog = ref(false)
                         https://huggingface.co/spaces/hztn/finch
                     </a>
                 </v-sheet>
-                <div class="description">Short description goes here.</div>
+                <div class="description">
+                    This project is part of my PhD, where I looked into how feature interactions
+                     can be visualized in models trained on tabular data sets. The user starts with a dataset and
+                     model and then selects one feature after another, 
+                     seeing how they interact.</div>
+                <v-btn
+                    class="mt-4"
+                    variant="outlined"
+                    prepend-icon="mdi-file-code"
+                    href="https://github.com/akleinau/finch"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Source code
+                </v-btn>
             </v-card-text>
         </v-card>
     </v-dialog>

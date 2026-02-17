@@ -25,7 +25,6 @@ const dialog = ref(false)
                 <img
                     src="/raccoon.png"
                     alt="Raccoon Project"
-                    height="420"
                     class="project-img-contain"
                 />
                 <v-sheet class="url-field" rounded>
@@ -39,6 +38,16 @@ const dialog = ref(false)
                     </a>
                 </v-sheet>
                 <div class="description">Short description goes here.</div>
+                <v-btn
+                    class="mt-4"
+                    variant="outlined"
+                    prepend-icon="mdi-file-code"
+                    href="https://github.com/akleinau/raccoon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Source code
+                </v-btn>
             </v-card-text>
         </v-card>
     </v-dialog>

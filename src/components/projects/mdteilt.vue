@@ -25,7 +25,6 @@ const dialog = ref(false)
                 <img
                     src="/mdteilt.jpg"
                     alt="mdteilt Project"
-                    height="420"
                     class="project-img-contain"
                 />
                 <v-sheet class="url-field" rounded>
@@ -38,7 +37,20 @@ const dialog = ref(false)
                         https://magdeburg-teilt.de
                     </a>
                 </v-sheet>
-                <div class="description">Short description goes here.</div>
+                <div class="description">
+                    We started this project to collect regular events and activities in Magdeburg that are based 
+                    on Solidarity.
+                </div>
+                <v-btn
+                    class="mt-4"
+                    variant="outlined"
+                    prepend-icon="mdi-file-code"
+                    href="https://github.com/akleinau/mdteilt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Source code
+                </v-btn>
             </v-card-text>
         </v-card>
     </v-dialog>
