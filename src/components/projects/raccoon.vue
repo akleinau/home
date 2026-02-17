@@ -18,7 +18,7 @@ const dialog = ref(false)
     <v-dialog v-model="dialog" max-width="900">
         <v-card class="maxicard">
             <v-card-title class="d-flex align-center justify-space-between">
-                Raccoon Project
+                Risk Communication
                 <v-btn icon="mdi-close" variant="text" @click="dialog = false" />
             </v-card-title>
             <v-card-text>
@@ -37,7 +37,13 @@ const dialog = ref(false)
                         https://akleinau.github.io/raccoon/
                     </a>
                 </v-sheet>
-                <div class="description">Short description goes here.</div>
+                <div class="description">
+                    I developed this project as part of my master thesis and PhD to support risk communicators 
+                    in both extracting risk factors from their epidemiological data sets as well as 
+                    visualizing them for diverse audiences. It supports diverse adaptations of the
+                     visualizations to a specific user group, including visualization formats, color,
+                     style, text and fonts.
+                </div>
                 <v-btn
                     class="mt-4"
                     variant="outlined"

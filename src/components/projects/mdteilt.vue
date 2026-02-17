@@ -18,7 +18,7 @@ const dialog = ref(false)
     <v-dialog v-model="dialog" max-width="900">
         <v-card class="maxicard">
             <v-card-title class="d-flex align-center justify-space-between">
-                mdteilt Project
+                Magdeburg teilt!
                 <v-btn icon="mdi-close" variant="text" @click="dialog = false" />
             </v-card-title>
             <v-card-text>
@@ -39,13 +39,13 @@ const dialog = ref(false)
                 </v-sheet>
                 <div class="description">
                     We started this project to collect regular events and activities in Magdeburg that are based 
-                    on Solidarity.
+                    on solidarity.
                 </div>
                 <v-btn
                     class="mt-4"
                     variant="outlined"
                     prepend-icon="mdi-file-code"
-                    href="https://github.com/akleinau/mdteilt"
+                    href="https://github.com/akleinau/SoliEventsMD"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

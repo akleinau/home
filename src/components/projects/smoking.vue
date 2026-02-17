@@ -18,7 +18,7 @@ const dialog = ref(false)
     <v-dialog v-model="dialog" max-width="900">
         <v-card class="maxicard">
             <v-card-title class="d-flex align-center justify-space-between">
-                smoking Project
+                Smoking Cessation
                 <v-btn icon="mdi-close" variant="text" @click="dialog = false" />
             </v-card-title>
             <v-card-text>
@@ -37,12 +37,17 @@ const dialog = ref(false)
                         https://pred.hbcptools.org
                     </a>
                 </v-sheet>
-                <div class="description">Short description goes here.</div>
+                <div class="description">
+                    In this project, I created an interface for the AI model of my colleagues that
+                     helps decision-makers decide which interventions are best suited to reduce 
+                     smoking rates in their community. 
+
+                </div>
                 <v-btn
                     class="mt-4"
                     variant="outlined"
                     prepend-icon="mdi-file-code"
-                    href="https://github.com/akleinau/smoking"
+                    href="https://github.com/akleinau/interventions"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

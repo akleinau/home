@@ -18,7 +18,7 @@ const dialog = ref(false)
     <v-dialog v-model="dialog" max-width="900">
         <v-card class="maxicard">
             <v-card-title class="d-flex align-center justify-space-between">
-                stint Project
+                Interaction Stories
                 <v-btn icon="mdi-close" variant="text" @click="dialog = false" />
             </v-card-title>
             <v-card-text>
@@ -30,14 +30,20 @@ const dialog = ref(false)
                 <v-sheet class="url-field" rounded>
                     <a
                         class="url-link"
-                        href="https://akleinau.github.io/stint/"
+                        href="https://akleinau.github.io/Stint/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        https://akleinau.github.io/stint/
+                        https://akleinau.github.io/Stint/
                     </a>
                 </v-sheet>
-                <div class="description">Short description goes here.</div>
+                <div class="description">
+                    I created this project after developing the feature interactions project also included
+                     in this portfolio. This project aims to explain feature interactions to domain experts 
+                     who know a lot about their specific model or data set but not about the intricacies of AI.
+                      It uses visualization and storytelling, as well as a new algorithm to compute feature
+                       interactions.
+                    </div>
                 <v-btn
                     class="mt-4"
                     variant="outlined"

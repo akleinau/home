@@ -18,7 +18,7 @@ const dialog = ref(false)
     <v-dialog v-model="dialog" max-width="900">
         <v-card class="maxicard">
             <v-card-title class="d-flex align-center justify-space-between">
-                finch Project
+                Feature Interactions
                 <v-btn icon="mdi-close" variant="text" @click="dialog = false" />
             </v-card-title>
             <v-card-text>

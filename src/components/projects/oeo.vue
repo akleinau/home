@@ -18,7 +18,7 @@ const dialog = ref(false)
     <v-dialog v-model="dialog" max-width="900">
         <v-card class="maxicard">
             <v-card-title class="d-flex align-center justify-space-between">
-                oeo Project
+                OEO Ontology
                 <v-btn icon="mdi-close" variant="text" @click="dialog = false" />
             </v-card-title>
             <v-card-text>
@@ -37,7 +37,15 @@ const dialog = ref(false)
                         https://github.com/OpenEnergyPlatform/ontology
                     </a>
                 </v-sheet>
-                <div class="description">Short description goes here.</div>
+                <div class="description">
+                   This project is a little bit different to the data and interface projects I mainly focus on 
+                   in this portfolio; however, working on this project was highly impactful to my career.
+                    It was the first time working in an interdisciplinary team 
+                    in the role of the computer scientist. I learned so much from this project and want
+                     to give it a little shoutout here. As a team, or more likely as a community, 
+                     we developed an ontology for the energy systems sector as part of the OpenEnergyPlatform. 
+                     Please check it out if you come from that domain or are interested in ontologies. 
+                </div>
                 <v-btn
                     class="mt-4"
                     variant="outlined"

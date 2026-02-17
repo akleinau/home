@@ -18,7 +18,7 @@ const dialog = ref(false)
     <v-dialog v-model="dialog" max-width="900">
         <v-card class="maxicard">
             <v-card-title class="d-flex align-center justify-space-between">
-                FractalSquirrel Project
+                Fractal Squirrel
                 <v-btn icon="mdi-close" variant="text" @click="dialog = false" />
             </v-card-title>
             <v-card-text>
@@ -43,16 +43,12 @@ const dialog = ref(false)
                     This was a little weekend project. Cute, buggy, and fun.
                 </div>
                 
-                <v-btn
-                    class="mt-4"
-                    variant="outlined"
-                    prepend-icon="mdi-file-code"
+                <v-btn class="mt-4" variant="outlined" prepend-icon="mdi-file-code"
                     href="https://github.com/akleinau/FractalSquirrel"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
+                    target="_blank" rel="noopener noreferrer">
                     Source code
                 </v-btn>
+
             </v-card-text>
         </v-card>
     </v-dialog>

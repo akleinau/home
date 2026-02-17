@@ -37,7 +37,12 @@ const dialog = ref(false)
                         https://akleinau.github.io/RUBIN/
                     </a>
                 </v-sheet>
-                <div class="description">Short description goes here.</div>
+                <div class="description">
+                    For this project, we developed a clinical decision support system that can be both 
+                    made highly specific and adaptive to a specific scenario, like endometrial cancer therapy,
+                     and stay flexible and generalizable to other scenarios. 
+                    It is part of the endorisk project and is currently in clinical trial in multiple Dutch hospitals. 
+                </div>
                 <v-btn
                     class="mt-4"
                     variant="outlined"
