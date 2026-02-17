@@ -11,6 +11,19 @@ body {
   min-height: 100vh;
 }
 
+
+.project-img-cover {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.project-img-contain {
+  width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
 .minicard {
     width: 220px;
     height: 150px;

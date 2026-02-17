@@ -9,8 +9,6 @@ import MdTeilt from './projects/mdteilt.vue';
 import FractalSquirrel from './projects/fractalSquirrel.vue';
 import Smoking from './projects/smoking.vue';
 
-
-
 </script>
 
 <template>

@@ -6,11 +6,11 @@ const dialog = ref(false)
 
 <template>
     <v-card class="minicard" @click="dialog = true">
-        <v-img
+        <img
             src="/oeo.png"
             alt="oeo Project"
             height="110"
-            cover
+            class="project-img-cover"
         />
         <v-card-title>OEO Ontology </v-card-title>
     </v-card>
@@ -22,11 +22,11 @@ const dialog = ref(false)
                 <v-btn icon="mdi-close" variant="text" @click="dialog = false" />
             </v-card-title>
             <v-card-text>
-                <v-img
+                <img
                     src="/oeo.png"
                     alt="oeo Project"
                     height="420"
-                    contain
+                    class="project-img-contain"
                 />
                 <v-sheet class="url-field" rounded>
                     <a
