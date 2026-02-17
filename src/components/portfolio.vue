@@ -6,7 +6,7 @@ import Stint from './projects/stint.vue';
 import Visco from './projects/visco.vue';
 import Oeo from './projects/oeo.vue';
 import MdTeilt from './projects/mdteilt.vue';
-import FractalSquirrel from './projects/FractalSquirrel.vue';
+import FractalSquirrel from './projects/fractalSquirrel.vue';
 import Smoking from './projects/smoking.vue';
 
 
