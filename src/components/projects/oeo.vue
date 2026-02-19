@@ -43,19 +43,30 @@ const dialog = ref(false)
                     It was the first time working in an interdisciplinary team 
                     in the role of the computer scientist. I learned so much from this project and want
                      to give it a little shoutout here. As a team, or more likely as a community, 
-                     we developed an ontology for the energy systems sector as part of the OpenEnergyPlatform. 
+                     we developed an ontology for the energy systems sector as part of the OpenEnergyPlatform (OEP). 
                      Please check it out if you come from that domain or are interested in ontologies. 
                 </div>
-                <v-btn
-                    class="mt-4"
-                    variant="outlined"
-                    prepend-icon="mdi-file-code"
-                    href="https://github.com/OpenEnergyPlatform/ontology"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Source code
-                </v-btn>
+                <div class="d-flex ga-2 mt-4 flex-wrap">
+                    <v-btn
+                        variant="outlined"
+                        prepend-icon="mdi-file-code"
+                        href="https://github.com/OpenEnergyPlatform/ontology"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Source code
+                    </v-btn>
+                    <v-btn
+                        variant="flat"
+                        color="blue-darken-1"
+                        prepend-icon="mdi-link-variant"
+                        href="https://github.com/OpenEnergyPlatform"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Part of OEP
+                    </v-btn>
+                </div>
             </v-card-text>
         </v-card>
     </v-dialog>

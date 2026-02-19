@@ -43,16 +43,27 @@ const dialog = ref(false)
                      and stay flexible and generalizable to other scenarios. 
                     It is part of the endorisk project and is currently in clinical trial in multiple Dutch hospitals. 
                 </div>
-                <v-btn
-                    class="mt-4"
-                    variant="outlined"
-                    prepend-icon="mdi-file-code"
-                    href="https://github.com/akleinau/RUBIN"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Source code
-                </v-btn>
+                <div class="d-flex ga-2 mt-4 flex-wrap">
+                    <v-btn
+                        variant="outlined"
+                        prepend-icon="mdi-file-code"
+                        href="https://github.com/akleinau/RUBIN"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Source code
+                    </v-btn>
+                    <v-btn
+                        variant="flat"
+                        color="blue-darken-1"
+                        prepend-icon="mdi-link-variant"
+                        href="https://endorisk.eu"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Part of Endorisk
+                    </v-btn>
+                </div>
             </v-card-text>
         </v-card>
     </v-dialog>

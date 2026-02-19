@@ -40,19 +40,30 @@ const dialog = ref(false)
                 <div class="description">
                     In this project, I created an interface for the AI model of my colleagues that
                      helps decision-makers decide which interventions are best suited to reduce 
-                     smoking rates in their community. 
+                     smoking rates in their community. It is part of the Human Behaviour Change Project (HBCP). 
 
                 </div>
-                <v-btn
-                    class="mt-4"
-                    variant="outlined"
-                    prepend-icon="mdi-file-code"
-                    href="https://github.com/akleinau/interventions"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Source code
-                </v-btn>
+                <div class="d-flex ga-2 mt-4 flex-wrap">
+                    <v-btn
+                        variant="outlined"
+                        prepend-icon="mdi-file-code"
+                        href="https://github.com/akleinau/interventions"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Source code
+                    </v-btn>
+                    <v-btn
+                        variant="flat"
+                        color="blue-darken-1"
+                        prepend-icon="mdi-link-variant"
+                        href="https://www.humanbehaviourchange.org/prediction"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Part of HBCP
+                    </v-btn>
+                </div>
             </v-card-text>
         </v-card>
     </v-dialog>
