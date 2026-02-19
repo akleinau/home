@@ -58,8 +58,13 @@ body {
 
 .description {
     margin-top: 12px;
-    font-size: 0.95rem;
-    opacity: 0.8;
+    color: #606060;
+}
+
+.citation {
+  font-size: 0.95rem;
+  color: #606060;
+  margin-top: 5px;
 }
 
 @media (max-width: 600px) {

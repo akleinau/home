@@ -64,6 +64,12 @@ const dialog = ref(false)
                         Part of Endorisk
                     </v-btn>
                 </div>
+                <div class="mt-8">
+                    <h3>Publication</h3>
+                    <div class="citation">
+                        Kleinau, A., Mo, A., Mueller-Sielaff, J., Pijnenborg, J. M., Lucas, P. J., & Oeltze-Jafra, S. (2021). User-Centered Development of a Clinical Decision Support System. In SMARTERCARE@ AI* IA (pp. 67-78).
+                    </div>
+                </div>
             </v-card-text>
         </v-card>
     </v-dialog>

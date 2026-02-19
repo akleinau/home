@@ -64,6 +64,13 @@ const dialog = ref(false)
                         Part of HBCP
                     </v-btn>
                 </div>
+
+                 <div class="mt-8">
+                    <h3>Publication</h3>
+                    <div class="citation">
+                  Hastings, J., Glauer, M., West, R.,<b> Kleinau, A.</b>, Thomas, J., Wright, A. J., & Michie, S. (2025). Predicting outcomes of smoking cessation interventions in novel scenarios using ontology-informed, interpretable machine learning. Wellcome Open Research, 8, 503.
+                    </div>
+                </div>
             </v-card-text>
         </v-card>
     </v-dialog>

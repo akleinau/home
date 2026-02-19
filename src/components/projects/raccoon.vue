@@ -54,6 +54,13 @@ const dialog = ref(false)
                 >
                     Source code
                 </v-btn>
+
+                 <div class="mt-8">
+                    <h3>Publication</h3>
+                    <div class="citation">
+                   Kleinau, A., Preim, B., & Meuschke, M. (2024). Raccoon: Supporting Risk Communicators in Visualizing Health Data for the Public. In VMV.
+                    </div>
+                </div>
             </v-card-text>
         </v-card>
     </v-dialog>

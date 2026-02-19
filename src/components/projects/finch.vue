@@ -52,6 +52,14 @@ const dialog = ref(false)
                 >
                     Source code
                 </v-btn>
+
+                    <div class="mt-8">
+                        <h3>Publication</h3>
+                        <div class="citation">
+                            Kleinau, A., Preim, B., & Meuschke, M. (2025). FINCH: Locally Visualizing Higher-Order Feature Interactions in Black Box Models. arXiv preprint arXiv:2503.16445.
+                        </div>
+                    </div>
+
             </v-card-text>
         </v-card>
     </v-dialog>

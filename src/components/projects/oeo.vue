@@ -67,6 +67,13 @@ const dialog = ref(false)
                         Part of OEP
                     </v-btn>
                 </div>
+                
+                <div class="mt-8">
+                    <h3>Publication</h3>
+                    <div class="citation">
+                Booshehri, M., Emele, L., Flügel, S., Förster, H., Frey, J., Frey, U., Glauer, M., Hastings, J., Hofmann, C. Hoyer-Klick, C., Hülk, L., <b>Kleinau, A.</b>, Knosala, K., Leander, K., Kuckertz, P., Mossakowski, T., Muschner, C., Neuhaus, F., Michaja, P., Robinius, M., Sehn, V., \& Stappel, M. (2021). Introducing the Open Energy Ontology: Enhancing data interpretation and interfacing in energy systems analysis. Energy and AI, 5, 100074.
+                    </div>
+                </div>
             </v-card-text>
         </v-card>
     </v-dialog>
