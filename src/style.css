@@ -11,6 +11,10 @@ body {
   min-height: 100vh;
 }
 
+.v-main {
+  background-color: #e6f4ff !important;
+}
+
 
 .project-img-cover {
   width: 100%;
